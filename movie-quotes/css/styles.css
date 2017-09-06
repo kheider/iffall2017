@@ -1,0 +1,48 @@
+body {
+
+}
+	
+div {
+		width: 800px;
+	margin-left: 200px;
+	text-align: left;
+
+}
+
+h1 {
+	padding-left:40px;
+	
+}
+p span.actions {
+	font-style:italic;
+
+}
+
+p span.characters {
+	font-weight:bold;
+}
+
+p span.venkman {
+	font-weight:bold;
+	color: #3393FF;
+}
+
+p span.barrett {
+	font-weight:bold;
+	color: #812BA1;
+}
+
+p span.stantz {
+	font-weight:bold;
+	color: #2B6BA1;
+}
+
+p span.spengler {
+	font-weight:bold;
+	color: #0E337E;
+}
+
+p span.lastcharacter {
+	font-weight:bold;
+	color: #470C98;
+}
