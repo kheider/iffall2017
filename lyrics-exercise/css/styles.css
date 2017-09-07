@@ -1,0 +1,60 @@
+body { 
+		background:#D2F2FF;
+}
+	
+div {
+		width: 800px;
+	margin-left: 500px;
+	text-align: left;
+
+}
+
+h1 {
+	text-align:center;
+	font-family:helvetica;
+}
+
+h2 {
+	text-align:center;
+	font-family:helvetica;
+}
+
+p {
+	font-family:helvetica;
+
+}
+
+p span.descriptor {
+	font-style:italic;
+	font-size: 80%;
+
+}
+
+p span.characters {
+	font-weight:bold;
+}
+
+p span.venkman {
+	font-weight:bold;
+	color: #3393FF;
+}
+
+p span.barrett {
+	font-weight:bold;
+	color: #812BA1;
+}
+
+p span.stantz {
+	font-weight:bold;
+	color: #2B6BA1;
+}
+
+p span.spengler {
+	font-weight:bold;
+	color: #0E337E;
+}
+
+p span.lastcharacter {
+	font-weight:bold;
+	color: #470C98;
+}
