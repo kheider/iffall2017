@@ -1,0 +1,39 @@
+body { 
+		background:#D2F2FF;
+		font-family: Ubuntu;
+}
+	
+div {
+		width: 800px;
+	margin-left: 500px;
+	text-align: left;
+
+}
+
+h1 {
+	text-align:center;
+	font-family: 'Oleo Script Swash Caps', cursive;
+	font-size:50px;
+	color:#4B6497;
+}
+
+h2 {
+	text-align:center;
+	font-family: 'Oleo Script Swash Caps', cursive;
+	font-size:35px;
+	color:#172D5A;
+}
+
+p {
+	font-family: Ubuntu;
+	color:#172D5A;
+
+}
+
+p span.descriptor {
+	font-style:italic;
+	font-size: 80%;
+	color:#4B6497;
+	padding-left: 10px;
+
+}
