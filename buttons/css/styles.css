@@ -1,0 +1,562 @@
+			body {
+				color: #333;
+				font-family: 'Open Sans', sans-serif;
+				margin: 0;
+				padding: 0;
+			}
+
+			#main_content {
+				margin: 40px;
+			}
+
+			h1 {
+			 	font-size: 30px;
+			 	margin-bottom: 40px;
+			}
+
+			.button_container {
+				border: 1px solid #ddd;
+				margin: 0 10px 10px 0;
+				padding: 20px;
+				width: 300px;
+				height: 300px;
+				float: left;
+				overflow: hidden;
+				box-sizing: border-box;
+				text-align: center;
+			}
+
+
+
+			a#btn_spotify {
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				background-color: #2ebd59;
+				border: 2px solid #2ebd59;
+				color: #fff;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_spotify:hover {
+				background-color: #fff;
+				border: 2px solid #000;
+				color: #000;
+			}
+
+
+			a#btn_twitter {
+				display: inline-block;
+				height: 40px;
+				box-sizing: border-box;
+				border-radius: 4px;
+				margin: auto;
+				margin-top: 105px;
+				padding: 10px 30px 0 30px;
+				background-color: #56cdf1;
+				color: #fff;
+				font-size: 18px;
+				font-family: 'Arial', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+			}
+
+			a#btn_twitter:hover {
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2ebfec+0,28a5cb+100 */
+				background: #2ebfec; /* Old browsers */
+				background: -moz-linear-gradient(top,  #2ebfec 0%, #28a5cb 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2ebfec), color-stop(100%,#28a5cb)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  #2ebfec 0%,#28a5cb 100%); /* IE10+ */
+				background: linear-gradient(to bottom,  #2ebfec 0%,#28a5cb 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2ebfec', endColorstr='#28a5cb',GradientType=0 ); /* IE6-9 */
+			}
+
+
+			a#btn_amazon {
+				display: block;
+				width: 100px;
+				height: 100px;
+				box-sizing: border-box;
+				border-radius: 50px;
+				margin: auto;
+				margin-top: 75px;
+				padding-top: 8px;
+				background-color: #232f3e;
+				color: #fff;
+				text-align: center;
+				font-size: 60px;
+			}
+
+			a#btn_amazon:hover {
+				background-color: #fc9a18;
+			}
+
+
+			a#btn_indiegogo {
+				display: inline-block;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: #eb1478;
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: -2px;
+			}
+
+			a#btn_indiegogo:hover {
+				color: #fff;
+				background-color: #eb1478;
+			}
+
+			a#btn_npr {
+				display: inline-block;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+			}
+
+			a#btn_npr:hover {
+				box-shadow: 2px 2px 1px rgba(50, 50, 50, 0.75);
+			}
+
+			a#btn_nbc {
+				display: block;
+				margin:auto;
+				margin-top: 50px;
+				padding: 8px 8px;
+			}
+
+			a#btn_nbc:hover {
+				-webkit-filter: grayscale(100%); filter: grayscale(100%);
+			}
+
+
+			a#btn_fb {
+				display: block;
+				margin:auto;
+				margin-top: 70px;
+				padding: 8px 8px;
+			}
+
+			a#btn_nbc:hover {
+				-webkit-filter: grayscale(100%); filter: grayscale(100%);
+			}
+
+			a#btn_fb {
+				background-color: #3b5999;
+				width: 100px;
+				height: 90px;
+				padding-top:20px;
+				color: #fff;
+			}
+
+			a#btn_fb:hover {
+				  background: #8b9dc3; /* For browsers that do not support gradients */
+				  background: -webkit-linear-gradient(left top, #8b9dc3, #f7f7f7); /* For Safari 5.1 to 6.0 */
+				  background: -o-linear-gradient(bottom right, #8b9dc3, #f7f7f7); /* For Opera 11.1 to 12.0 */
+				  background: -moz-linear-gradient(bottom right, #8b9dc3, #f7f7f7); /* For Firefox 3.6 to 15 */
+				  background: linear-gradient(to bottom right, #8b9dc3, #f7f7f7); /* Standard syntax */
+			}
+
+			a#btn_lyft {
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				display: inline-block;
+				height: 50px;
+				color:#352384;
+			}
+
+			a#btn_lyft:hover {
+				color:#ff00bf;
+			}
+
+
+			a#btn_moo{
+				color:#00965E;
+				background-color: white;
+  				border: 2px solid #00965E; 
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 25px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 40px 0 40px;
+				font-size: 20px;
+				font-family: 'Montserrat', sans-serif;
+				text-decoration: none;
+			}
+
+			a#btn_moo:hover{
+				color:white;
+				background-color:#00965E;
+			}
+
+			a#btn_oldnavy{
+				color:white;
+				background-color:#003764;
+				display: inline-block;
+				height: 50px;
+				box-sizing: border-box;
+				border-radius: 100px;
+				margin: auto;
+				margin-top: 100px;
+				padding: 10px 30px 0 30px;
+				font-size: 20px;
+				font-family: 'Arial', sans-serif;
+				font-weight: bold;
+				text-decoration: none;
+
+			}
+
+			a#btn_oldnavy:hover{
+				background-color:#13a0db;
+
+			}
+
+			a#btn_cn:hover{
+				filter: invert(100%);
+			}
+
+			a#btn_apple {
+				color:white;
+				margin-top: 100px;
+				padding: 10px 10px 5px 10px;
+				display: inline-block;
+				box-sizing: border-box;
+				background-color:black;
+				border-radius: 10px;
+
+
+			}
+
+			a#btn_apple:hover {
+				background: grey; /* For browsers that do not support gradients */
+				background: -webkit-linear-gradient(left top, white, grey); /* For Safari 5.1 to 6.0 */
+				background: -o-linear-gradient(bottom right, white, grey); /* For Opera 11.1 to 12.0 */
+				background: -moz-linear-gradient(bottom right, white, grey); /* For Firefox 3.6 to 15 */
+				background: linear-gradient(to bottom right, white, grey); /* Standard syntax */
+
+			}
+
+			a#btn_coke {
+
+
+			}
+
+			a#btn_coke:hover {
+				content:url(coke2.jpg);
+			}
+
+			a#btn_mk {
+				display: inline-block;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: #000;
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 15px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing: .5px;
+			}
+
+			a#btn_mk:hover {
+				color: #fff;
+				background-color: #000;
+			}
+
+			a#btn_sam {
+				color:#3142ab;
+				display: inline-block;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+
+			}
+
+			a#btn_sam:hover {
+				color:mediumslateblue;
+			}
+
+			a#btn_sam:active {
+ 				color: slateblue;
+ 				transform: translateY(5px);
+ 			}
+
+			a#btn_hulk {
+				display: inline-block;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: gold;
+				font-family: 'Impact', sans-serif;
+				font-size: 30px;
+				font-weight: bold;
+				text-transform: uppercase;
+				text-decoration: none;
+			}
+
+			a#btn_hulk:hover {
+				color: #fff;
+				background-color: red;
+
+			}
+
+				a#btn_hsn {
+				display: inline-block;
+				margin:auto; 
+				height: 90px;
+				width: 90px;
+ 				border-radius: 50%;
+				margin-top: 100px;
+				background-color: deepskyblue;
+				color: white;
+				font-family: 'OpenSans', sans-serif;
+				font-size: 27px;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing:.7px;
+			}
+
+			a#btn_hsn:hover {
+				background: grey; /* For browsers that do not support gradients */
+				background: -webkit-linear-gradient(left top, white, deepskyblue); /* For Safari 5.1 to 6.0 */
+				background: -o-linear-gradient(bottom right, white, deepskyblue); /* For Opera 11.1 to 12.0 */
+				background: -moz-linear-gradient(bottom right, white, deepskyblue); /* For Firefox 3.6 to 15 */
+				background: linear-gradient(to bottom right, white, deepskyblue); /* Standard syntax */
+			}
+
+			a#btn_vel {
+				display: inline-block;
+				margin:auto;
+				margin-top: 100px;
+				padding: 8px 16px;
+				background-color: #fff;
+				color: grey; 
+				font-family: 'OpenSans', sans-serif;
+				font-size: 30px;
+				font-weight: lighter;
+				text-transform: uppercase;
+				text-decoration: none;
+				letter-spacing:1.5px;
+
+
+			}
+
+			a#btn_vel:hover {
+				color: lightgrey;
+				letter-spacing:2.5px;
+			}
+
+			a#btn_pot {
+				display: inline-block;
+				padding: 100px 16px;
+				color:black;
+			}
+
+			a#btn_pot:hover {
+				color:white;
+			}
+
+			a#btn_explode {
+				display: inline-block;
+				padding: 100px 16px;
+				color:red;
+				font-family: 'Impact', sans-serif;
+				font-size:20px;
+				letter-spacing: 1.2px;
+				text-decoration: none;
+			}
+
+			a#btn_explode:hover {
+ 				color: #f5f5f5;
+ 				text-shadow:
+ 				0px -2px 4px #fff,
+				0px -2px 10px yellow,
+				0px -10px 20px orange,
+				0px -20px 40px red;
+				font-size: 20px;
+}
+			
+
+			a#btn_elec {
+				color:darkturquoise;
+				display: inline-block;
+				padding: 100px 16px;
+				font-family: 'Montserrat', sans-serif;
+				font-size:24px;
+				text-decoration: none;
+
+			}
+
+			a#btn_elec:hover {
+				transform:translateX(20px);
+
+			}
+
+			#btn_insta {
+				height:100px;
+				width:auto;
+				padding: 16px 16px;
+				padding-top:60px;
+				
+
+			}
+
+			#btn_insta:hover {
+				filter: invert(100%);
+
+			}
+
+			a#btn_fitbit {
+				color:black;
+				display: inline-block;
+				padding: 100px 16px;
+				font-family: 'Montserrat', sans-serif;
+				text-decoration:none;
+
+			}
+
+			a#btn_fitbit:hover {
+				color:mediumturquoise;
+
+			}
+
+			#btn_nike {
+				height:auto;
+				width:200px;
+				padding: 16px 16px;
+				padding-top:90px;
+
+			}
+
+			a#btn_nike:hover {
+								background: turquoise; /* For browsers that do not support gradients */
+				background: -webkit-linear-gradient(left top, pink, turquoise); /* For Safari 5.1 to 6.0 */
+				background: -o-linear-gradient(bottom right, pink, turquoise); /* For Opera 11.1 to 12.0 */
+				background: -moz-linear-gradient(bottom right, pink, turquoise); /* For Firefox 3.6 to 15 */
+				background: linear-gradient(to bottom right, pink, turquoise); /* Standard syntax */
+
+			}
+
+			a#btn_mobg {
+				color:black;
+				display: inline-block;
+				padding: 50px 16px;
+				font-family: 'Montserrat', sans-serif;
+				text-decoration:none;
+
+
+			}
+
+			a#btn_mobg:hover {
+				color:darkolivegreen;
+
+			}
+
+			#btn_ibm {
+				height:auto;
+				width:200px;
+				padding: 16px 16px;
+				padding-top:110px;
+
+			}
+
+			#btn_ibm:hover{
+				 -ms-transform: rotate(180deg); /* IE 9 */
+   				 -webkit-transform: rotate(180deg); /* Safari */
+   				 transform: rotate(180deg);
+			}
+
+			a#btn_craig {
+				color:#0000ff;
+				display: inline-block;
+				padding: 50px 16px;
+				padding-top:120px;
+				font-family: 'Times New Roman', serif;
+				text-decoration:none;
+				font-size:24px;
+
+
+			}
+
+			a#btn_craig:hover {
+				font-family: 'OpenSans', serif;
+				color:purple;
+
+			}
+
+			#btn_color {
+				height:auto;
+				width:200px;
+				padding: 16px 16px;
+				padding-top:110px;
+				filter: invert(100%);
+
+			}
+
+			#btn_color:hover {
+				filter:none;
+			}
+
+			a#btn_stjude {
+				display: inline-block;
+				height: 60px;
+				box-sizing: border-box;
+				border-radius: 4px;
+				margin: auto;
+				margin-top: 105px;
+				padding: 10px 30px 0 30px;
+				background-color: #931638;
+				color: #fff;
+				font-size: 18px;
+				font-family: 'Times New Roman', serif;
+				font-weight: bold;
+				text-decoration: none;
+
+			}
+
+			a#btn_stjude:hover {
+				background-color:#fff;
+				color:#931638;
+
+			}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
