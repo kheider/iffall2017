@@ -1,0 +1,147 @@
+body{
+	margin:0px;
+	padding:0px;
+	font-family: 'Archivo Narrow', sans-serif;
+}
+
+h1, h2, h3, h4, h5{
+	margin:0px;
+	padding:0px;
+	font-family: 'Archivo Narrow', sans-serif;
+	text-align:center;
+}
+
+h1{
+	font-size:80px;
+	padding-top:155px;
+}
+
+h2{
+	font-size:30px;
+	padding-top:2px;
+}
+
+h3 {
+	font-size:40px;
+	padding-bottom:0px;
+	color:#AF3064;
+	margin-bottom:35px;
+}
+
+h4{
+	text-align:left;
+	font-size:21px;
+	padding-top:0px;
+	vertical-align: top;
+
+}
+
+section>div{
+	margin:auto;
+	width:960px;
+	padding-top:41px;
+}
+
+h4 + p{
+	padding-top:9px;
+	padding-right:30px;
+}
+
+p{
+	font-size:18px;
+	padding:0;
+	margin:0;
+
+}
+
+.firstpara {
+		line-height:1.2;
+
+}
+
+.lastpara {
+	margin:auto;
+	width:700px;
+	display:block;
+	font-size:27px;
+	line-height:1.15;
+	text-align:center;
+	
+}
+
+.right {
+	text-align:right;
+	display:block;
+/*	padding-right:225px;*/
+	color:white;
+	font-size:18px;
+	margin-top:-25px;
+}
+
+#right {
+	float:right;
+}
+
+#left {
+	padding-top:0px;
+	margin:0px 0px 23px 0px;
+	display:inline-block;
+	width:50%;
+}
+
+
+#left img {
+	float:left;
+	margin-right:12px;
+}
+
+
+p img{
+	float:right;
+	margin:0px 5px 20px 35px;
+}
+
+section#top_section {
+	background-color:rgb(200,0,0);
+	height:480px;
+	background-image:url(../images/puppyfullsize.png);
+	background-size:cover;
+	background-position:center;
+}
+
+section#section_one {
+	background-color:#FFC8DA;
+	height:646px;
+}
+
+section#section_two {
+	background-color:#F1DBE2;
+	height:680px;
+}
+
+
+section#section_three {
+	height:411px;
+	background-color:#FFC8DA;
+}
+
+
+section#bottom {
+	height:98px;
+	background-color:#AF3064;;
+}
+
+.footer {
+	display:block;
+/*	padding-top:40px;
+	padding-left:230px;*/
+	color:white;
+	font-size:18px;
+}
+
+.fa{
+  font-size: 30px;
+  letter-spacing: .05em
+}
+
+
