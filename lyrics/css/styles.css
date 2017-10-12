@@ -1,0 +1,32 @@
+h1, h2, h3, p, body{
+	margin:0;
+	padding:0;
+}
+
+h1, h2, h3 {
+	text-align: right;
+	width:1200px;
+}
+
+h1{
+	font-size:72px;
+}
+
+body {
+	background-color:#0f1c2c;
+	color:white;
+	font-family: 'Open Sans', sans-serif;
+}
+
+section#top {
+	background-image:url(http://www.northeastern.edu/digital-news-files/purnimaWhale/water_bkg.gif);
+	background-size:cover;
+	background-position:center;
+	height:400px;
+}
+
+section#other{
+	height:1000px;
+}
+
+
