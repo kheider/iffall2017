@@ -6,10 +6,22 @@ h1, h2, h3, p, body{
 h1, h2, h3 {
 	text-align: right;
 	width:1200px;
+	font-family: 'Acme', sans-serif;
 }
 
 h1{
-	font-size:72px;
+	font-size:120px;
+	padding-top:50px;
+}
+
+h2 {
+	font-size:60px;
+}
+
+h3 {
+	width:1093px;
+	padding-top:3px;
+	font-size:24px;
 }
 
 body {
@@ -27,6 +39,53 @@ section#top {
 
 section#other{
 	height:1000px;
+	margin-bottom:250px;
 }
 
+div#lyrics {
+	padding-top:100px;
+}
+
+img {
+	height:200px;
+	width:auto;
+	position:fixed;
+	left:200px;
+	bottom:140px;
+}
+
+img#tefiti:hover {
+	opacity:0;
+	z-index: 100;
+}
+
+img#tefiti {
+	z-index: 100;
+}
+
+p {
+/*	width:600px;
+	text-align:right;*/
+	margin-left:522px;
+	font-size:18px;
+}
+p:hover {
+	color:lightgreen;
+}
+
+#one {
+	margin-left:700px;
+}
+
+#two {
+	margin-left:800px;
+}
+
+#moana {
+	position:absolute;
+	width:100px;
+	height:auto;
+	left:1102px;
+	top:280px;
+}
 
