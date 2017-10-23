@@ -1,0 +1,115 @@
+h1, h2, h3, p, body{
+	margin:0;
+	padding:0;
+}
+
+h1, h2, h3 {
+	text-align: right;
+	width:1200px;
+	font-family: 'Acme', sans-serif;
+}
+
+h1{
+	font-size:120px;
+	padding-top:50px;
+}
+
+h2 {
+	font-size:60px;
+}
+
+h3 {
+	width:1093px;
+	padding-top:3px;
+	font-size:24px;
+}
+
+body {
+	color:white;
+	font-family: 'Lato', sans-serif;
+	letter-spacing: .05em
+/*	background: #0f1c2c; /* For browsers that do not support gradients */
+ /*   background: -webkit-linear-gradient(#0f1c2c, #e8f6df);*/ /* For Safari 5.1 to 6.0 */
+   /* background: -o-linear-gradient(#0f1c2c, #e8f6df);*/ /* For Opera 11.1 to 12.0 */
+    /*background: -moz-linear-gradient(#0f1c2c, #e8f6df);*/ /* For Firefox 3.6 to 15 */
+   /* background: linear-gradient(#0f1c2c, #e8f6df);*/ /* Standard syntax */
+}
+
+section#top {
+	background-image:url(http://www.northeastern.edu/digital-news-files/purnimaWhale/water_bkg.gif);
+	background-size:cover;
+	background-position:center;
+	height:400px;
+}
+
+section#other{
+
+	height:1600px;
+	/*padding-top:150px;*/
+	background: #0f1c2c; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#43536c, #e8f6df); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#43536c, #e8f6df); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#43536c, #e8f6df); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#43536c, #e8f6df); /* Standard syntax */
+}
+
+#three {
+	
+	background-color: #0f1c2c;
+}
+
+div#lyrics {
+	padding-top:100px;
+}
+
+section#mygirl {
+	height:700px;
+	background-size:cover;
+	background-position:center;
+	background-image: url(../mygirl.jpg)
+
+}
+
+img {
+	height:200px;
+	width:auto;
+	position:fixed;
+	left:200px;
+	bottom:140px;
+}
+
+img#tefiti:hover {
+	opacity:0;
+	z-index: 100;
+}
+
+img#tefiti {
+	z-index: 100;
+}
+
+p {
+/*	width:600px;
+	text-align:right;*/
+	margin-left:522px;
+	font-size:18px;
+}
+p:hover {
+	color:lightgreen;
+}
+
+#one {
+	margin-left:700px;
+}
+
+#two {
+	margin-left:800px;
+}
+
+#moana {
+	position:absolute;
+	width:100px;
+	height:auto;
+	left:1102px;
+	top:280px;
+}
+
