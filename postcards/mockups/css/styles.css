@@ -1,0 +1,13 @@
+img#full {
+	height:700px;
+	width:auto;
+}
+
+img#mobile {
+	width:300px;
+	height:auto;
+}
+
+ body {
+ 	background-color:pink;
+ }
