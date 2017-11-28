@@ -1,0 +1,46 @@
+body {
+	background:url("alt.jpg");
+	background-size:cover;
+	font-family: 'Noto Serif', serif;
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+}
+
+h1 {
+	font-family: 'Amatic SC', cursive;
+	font-size: 60px;
+	color:white;
+	letter-spacing:.05em;
+}
+
+p {
+	padding:0;
+	margin:0;
+	font-family: 'PT Serif', serif;
+	color:white;
+}
+
+div {
+	position:absolute;
+	top:250px;
+	left:500px;
+	text-align: center;
+}
+
+a {
+	color:white;
+	text-decoration: none;
+}
+
+
+a:hover {
+	color:lightgrey;
+}
+
+a:click {
+	color:grey
+}
+
+/*font-family: 'Noto Serif', serif;
+font-family: 'Amatic SC', cursive;
+font-family: 'Caveat', cursive;*/
