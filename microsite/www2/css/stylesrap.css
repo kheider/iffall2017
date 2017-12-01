@@ -1,0 +1,129 @@
+body {
+	background:url("alt.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+	height:3300px;
+	margin:0;
+}
+
+div#menu {
+	 position: absolute;
+	 left:23%;
+	 top:6%;
+}
+
+div.menutwo {
+	position: relative;
+	top:97%;
+	/*left:43%;*/
+	padding-left:640px;
+}
+
+
+
+.button {
+    background-color: rgba(0,0,0,.3);
+    border: none;
+    color: grey;
+   /* position: relative;*/
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+    margin: 2px 2px;
+    cursor: pointer;
+    font-family: 'PT Serif', serif;
+     min-width: 100px;
+
+ }
+
+ .button:hover {
+ 	background-color:black;
+ 	color:#8c6055;
+ }
+
+
+h1 {
+	font-family: 'Amatic SC', cursive;
+	font-size: 60px;
+	color:black;
+	/*letter-spacing:.05em;*/	
+	text-align: center;
+}
+
+p {
+	padding:40px;
+	padding-top: 0;
+	margin:0;
+	font-family: 'PT Serif', serif;
+	color:black;
+	line-height:1.35em;
+}
+
+.text {
+	position:absolute;
+	top:19%;
+	left:25%;
+	width:50%;
+	background:url(paper.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+a {
+	color:white;
+	text-decoration: none;
+}
+
+
+a:hover {
+	color:lightgrey;
+}
+
+a:click {
+	color:grey
+}
+
+.indent {
+	position: relative;
+	left:50px;
+	font-style:italic;
+}
+img#rapunzel {
+	width:300px;
+	height:auto;
+	position: relative;
+	left:160px;
+
+}
+
+img#goosegirl {
+	width:350px;
+	height:auto;
+	position: relative;
+	left:140px;
+}
+
+img#briarrose {
+	width:300px;
+	height:auto;
+	position: relative;
+	left:165px;
+}
+
+img#littlered {
+	width:550px;
+	height:auto;
+	position:relative;
+	left:60px;
+}
+
+
+
+/*font-family: 'Noto Serif', serif;
+font-family: 'Amatic SC', cursive;
+font-family: 'Caveat', cursive;*/
+
+
+
