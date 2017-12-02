@@ -2,7 +2,7 @@ body {
 	background:url("alt.jpg");
 	background-size:cover;
 	background-attachment:fixed;
-	height:4500px;
+	height:4700px;
 	margin:0;
 }
 
@@ -14,7 +14,7 @@ div#menu {
 
 div.menutwo {
 	position: relative;
-	top:97%;
+	top:97.5%;
 	/*left:43%;*/
 	padding-left:640px;
 }
