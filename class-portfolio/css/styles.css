@@ -1,0 +1,56 @@
+img {
+	width:300px;
+	height:auto;
+	filter:grayscale(100%);
+	display:inline-block;
+}
+
+body {
+	text-align: center;
+	font-family: 'Noto Serif', serif;
+	padding-top:130px;
+	margin:0;
+	background-color:grey;
+	color:white;
+/*	background:url("http://www.powerpointhintergrund.com/uploads/2017/07/glitter-wallpapers-best-wallpapers-9.jpeg");
+	background-size: cover;
+	background-repeat:no-repeat;*/
+}
+
+h1 {
+	font-size:48px;
+	margin-bottom: 0px
+	margin-top:60px;
+	color:#ADDEFA;
+
+}
+
+h2 {
+	margin-bottom: 30px;
+	padding:25px;
+	letter-spacing: .02em;
+}
+
+a :hover {
+	filter:grayscale(0);
+}
+
+span:hover + div.one {
+
+    display: block;
+}
+
+div.one {
+	display:none;
+	text-align:left;
+	width:250px;
+	padding-left:5px;
+	padding-top:2px;
+}
+
+div {
+	display:inline-block;
+	vertical-align: top;
+	font-size:13px;
+	letter-spacing:.03em;
+}
